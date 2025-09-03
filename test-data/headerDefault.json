@@ -1,0 +1,6 @@
+{
+    "accept": "*/*",
+    "Content-Type": "application/json",
+    "Authorization": "Barear token_placeholder"
+}
+  

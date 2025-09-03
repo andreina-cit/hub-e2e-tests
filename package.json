@@ -1,0 +1,22 @@
+{
+  "name": "hub-e2e-tests",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "npx playwright test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^24.2.1",
+    "pw-api-plugin": "^2.0.2",
+    "typescript": "^5.7.3"
+  },
+  "dependencies": {
+    "@playwright/test": "^1.49.1",
+    "dotenv": "^17.2.1"
+  }
+}
