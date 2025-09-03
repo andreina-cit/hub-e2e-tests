@@ -54,10 +54,15 @@ npx playwright test --headed
 
 ## 📊 Relatórios
 
-Após rodar os testes, o Playwright gera um relatório interativo em HTML:
-
+Após rodar os testes, o Playwright gera um relatório interativo em playwright-report/index.html. Para exebir o report utilizar o comando abaixo:
 ```bash
 npx playwright show-report
 ```
+Visão de testes executados
+![alt text](image.png)
 
-Ele ficará disponível em playwright-report/index.html.
+Visão de passos executados no teste
+![alt text](image-2.png)
+
+Anexo da chamada da API
+![alt text](image-3.png)
